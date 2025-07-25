@@ -215,5 +215,11 @@ footer {
     max-width: 100%;
     object-fit: contain;
   }
+ .banner-right img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0; /* remove rounded corners on small screens if needed */
+  }
 
 }
